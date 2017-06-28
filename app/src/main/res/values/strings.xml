@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Adisyon</string>
+    <string-array name="titles">
+        <item>İskender</item>
+        <item>Tombik Pide Et Döner</item>
+        <item>Yarım Et Döner</item>
+        <item>Dürüm Et Döner</item>
+        <item>Porsiyon Et Döner</item>
+        <item>Pilav Üstü Et Döner</item>
+        <item>Salatalar</item>
+        <item>Yan Ürünler</item>
+    </string-array>
+
+    <string-array name="drinks">
+        <item>Coca-Cola(33 cl)</item>
+        <item>Coca-Cola Light(33 cl)</item>
+        <item>Coca-Cola Zero(33 cl)</item>
+        <item>Limonlu Soda</item>
+        <item>Soda</item>
+        <item>Su</item>
+        <item>Fanta(33 cl)</item>
+        <item>Sprite(33 cl)</item>
+        <item>Şalgam</item>
+        <item>Fuse Tea</item>
+        <item>Limonata</item>
+        <item>Ayran(20 cl)</item>
+        <item>Ayran(30 cl)</item>
+    </string-array>
+
+    <string-array name="tatli">
+        <item>Künefe</item>
+        <item>Aşure</item>
+        <item>Tek Pasta</item>
+        <item>Vanilyalı Malaga</item>
+        <item>Çikolatalı Malaga</item>
+        <item>Cheesecake</item>
+        <item>Tiramisu</item>
+        <item>Fırın Sütlaç</item>
+        <item>Profiterol</item>
+    </string-array>
+
+
+</resources>

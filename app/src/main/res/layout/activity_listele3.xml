@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#e5aa14"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.safak.adisyon.listele.Listele3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#d87e08"
+        android:layout_height="49dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:text="MASA 3"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000"></RelativeLayout>
+
+    <ListView
+        android:id="@+id/liste3"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"></ListView>
+
+    <RelativeLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <EditText
+            android:id="@+id/yorum3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="dipnot"
+            android:textSize="21dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/gonder"
+            android:background="@drawable/butonyapim"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:text="GÖNDER"
+            android:textSize="20dp"
+            android:textColor="#e5aa14"
+            android:onClick="gonder"/>
+
+    </RelativeLayout>
+</LinearLayout>

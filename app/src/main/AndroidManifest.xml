@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.safak.adisyon">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".masalar.Masa1" />
+        <activity android:name=".listele.Listele1" />
+        <activity android:name=".masalar.Masa2" />
+        <activity android:name=".masalar.Masa3" />
+        <activity android:name=".masalar.Masa4" />
+        <activity android:name=".masalar.Masa5" />
+        <activity android:name=".masalar.Masa6" />
+        <activity android:name=".masalar.Masa7" />
+        <activity android:name=".masalar.Masa8" />
+        <activity android:name=".masalar.Masa9" />
+        <activity android:name=".masalar.Masa10" />
+        <activity android:name=".masalar.Masa11" />
+        <activity android:name=".masalar.Masa12" />
+        <activity android:name=".listele.Listele2" />
+        <activity android:name=".listele.Listele3" />
+        <activity android:name=".listele.Listele4" />
+        <activity android:name=".listele.Listele5" />
+        <activity android:name=".listele.Listele6" />
+        <activity android:name=".listele.Listele7" />
+        <activity android:name=".listele.Listele8" />
+        <activity android:name=".listele.Listele9" />
+        <activity android:name=".listele.Listele10" />
+        <activity android:name=".listele.Listele11" />
+        <activity android:name=".listele.Listele12"></activity>
+    </application>
+
+</manifest>
